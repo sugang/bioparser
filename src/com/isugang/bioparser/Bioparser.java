@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package bioparser;
+package com.isugang.bioparser;
 
 /**
  *
@@ -19,4 +19,5 @@ public class Bioparser {
         
         
     }
+    
 }
