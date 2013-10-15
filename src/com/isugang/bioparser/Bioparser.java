@@ -28,12 +28,9 @@ public class Bioparser {
         //FileInputStream in = new FileInputStream(gmtFile);
         
         
-        //GmtObject obj = GmtParser.parse(gmtFile.getName(), GmtObject.ID_TYPE.ENTREZ_ID, in);
+//        GmtObject obj = GmtParser.parse(gmtFile.getName(), GmtObject.ID_TYPE.ENTREZ_ID, in);
         //obj.printStructure();
-        //System.out.println(obj.getGenesetGenes("GSE9037_CTRL_VS_LPS_1H_STIM_IRAK4_KO_BMDM_UP"));
-        
-        //What is the problem?
-        //NONFASTFORWARD UPDATE?
+//        System.out.println(obj.getGenesetGenes("GSE9037_CTRL_VS_LPS_1H_STIM_IRAK4_KO_BMDM_UP"));
     }
     
 }
