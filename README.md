@@ -1,4 +1,4 @@
 bioparser
 =========
 
-Java parsers for a variety of data, such as NCBI GEO (.soft), Geneset files, Ontology files (obo)
+Java parsers for a variety of data formats, such as NCBI GEO (.soft), Geneset files, Ontology files (obo)
