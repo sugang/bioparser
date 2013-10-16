@@ -4,8 +4,8 @@
  */
 package com.isugang.bioparser;
 
-import com.isugang.bioparser.gseagmt.GmtObject;
-import com.isugang.bioparser.gseagmt.GmtParser;
+import com.isugang.bioparser.gseagmt.GmtEntry;
+import com.isugang.bioparser.simpleobo.SimpleOBOTree;
 import java.io.File;
 import java.io.FileInputStream;
 
@@ -33,6 +33,13 @@ public class Bioparser {
 //        System.out.println(obj.getGenesetGenes("GSE9037_CTRL_VS_LPS_1H_STIM_IRAK4_KO_BMDM_UP"));
         
         //let me commit some changes and see whether it works
+        
+//        File file = new File("/Users/sugang/Dropbox/Research - Dropbox/CoolMap datasets/go-basic.obo");
+//        FileInputStream in = new FileInputStream(file);
+        
+//        SimpleOBOTree tree = SimpleOBOTree.parse("goObo", in);
+        //tree.printEntries();
+//        tree.printBranches();
     }
     
 }
