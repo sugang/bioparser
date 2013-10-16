@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -110,4 +111,37 @@ public class SimpleOBOTree {
         }
         
     }
+    
+    /**
+     * return all nodeIDs that have children
+     * @return 
+     */
+    public Set<String> getParentNodeIDs(){
+        return goTree.keySet();
+    }
+    
+    /**
+     * return all nodeIDs that are children of the given parentNodeID
+     * @param parentNodeID
+     * @return 
+     */
+    public Set<String> getChildNodes(String parentNodeID){
+        return goTree.get(parentNodeID);
+    }
+    
+    public SimpleOBOEntry getEntry(String id){
+        return goTermHash.get(id);
+    }
+    
+    public Set<String> getAllNodeIDs(){
+        return goTermHash.keySet();
+    }
+    
+    public Set<SimpleOBOEntry> getAllEntries(){
+        HashSet<SimpleOBOEntry> entries = new HashSet<>();
+        entries.addAll(goTermHash.values());
+        return entries;
+    }
+    
+    
 }

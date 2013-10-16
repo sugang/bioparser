@@ -4,6 +4,7 @@
  */
 package com.isugang.bioparser;
 
+import com.isugang.bioparser.geosoft.GeoSOFT;
 import com.isugang.bioparser.gseagmt.GmtEntry;
 import com.isugang.bioparser.simpleobo.SimpleOBOTree;
 import java.io.File;
@@ -40,6 +41,9 @@ public class Bioparser {
 //        SimpleOBOTree tree = SimpleOBOTree.parse("goObo", in);
         //tree.printEntries();
 //        tree.printBranches();
+        
+        GeoSOFT soft = GeoSOFT.parse(new File("/Users/sugang/Dropbox/Research - Dropbox/CoolMap datasets/GDS1001.soft"));
+        soft.printContents();
     }
     
 }
