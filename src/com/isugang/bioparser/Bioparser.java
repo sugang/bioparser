@@ -42,8 +42,8 @@ public class Bioparser {
         //tree.printEntries();
 //        tree.printBranches();
         
-        GeoSOFT soft = GeoSOFT.parse(new File("/Users/sugang/Dropbox/Research - Dropbox/CoolMap datasets/GDS1001.soft"));
-        soft.printContents();
+//        GeoSOFT soft = GeoSOFT.parse(new File("/Users/sugang/Dropbox/Research - Dropbox/CoolMap datasets/GDS1001.soft"));
+//        soft.printContents();
     }
     
 }
