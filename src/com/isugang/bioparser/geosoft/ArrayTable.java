@@ -5,10 +5,8 @@
 package com.isugang.bioparser.geosoft;
 
 import com.google.common.collect.HashBasedTable;
-import com.google.common.collect.HashMultimap;
 import com.google.common.collect.LinkedHashMultimap;
 import java.util.Arrays;
-import java.util.LinkedHashMap;
 
 /**
  *
